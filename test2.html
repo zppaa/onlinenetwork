@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body>
+<script type="text/javascript">
+
+window.onload = function(){
+	if(navigator.onLine){
+		console.log("在线")
+	}else{
+		console.log("离线")
+	}
+	function online(){
+		console.log("在线")
+	}
+	window.addEventListener("offline",offline.false);
+	function offline(){
+		console.log("离线")
+	}
+}
+
+</script>
+</body>
+</html>
